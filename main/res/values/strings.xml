@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CartaoIti</string>
+    <string name="fatura">fatura fechada</string>
+    <string name="valor">R$ 452,90</string>
+    <string name="pagamento">pagamento mínimo: R$ 60,55</string>
+    <string name="vencimento">vencimento: 20 de agosto</string>
+    <string name="parcelar">parcelar</string>
+    <string name="pagar">pagar</string>
+    <string name="lancamentos">ver lançamentos da fatura</string>
+    <string name="limite">limite disponível</string>
+    <string name="valorlimite">R$ 497,10</string>
+    <string name="utilizado">utilizado: R$ 452,90 de R$ 950,00</string>
+    <string name="aumentolimite">aumento de limite</string>
+    <string name="cartao">cartão de crédito</string>
+
+</resources>
