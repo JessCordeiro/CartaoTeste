@@ -48,30 +48,43 @@
 
             </TextView>
 
+<!--            <ProgressBar-->
+<!--                android:id="@+id/determinateBar"-->
+<!--                style="@android:style/Widget.ProgressBar.Horizontal"-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="18dp"-->
+<!--                android:progress="48"-->
+<!--                android:progressDrawable="@drawable/gradient"-->
+
+
+<!--                />-->
+
+
             <ProgressBar
-                android:id="@+id/determinateBar"
-                style="@android:style/Widget.ProgressBar.Horizontal"
-                android:layout_width="match_parent"
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="18dp"
                 android:progress="48"
-                android:progressDrawable="@drawable/gradient"
-
-
-                />
+                android:layout_marginTop="18dp"
+                android:progressDrawable="@drawable/customprogressbar"
+               />
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="15dp"
-                    android:layout_height="15dp"
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
                     android:layout_gravity="bottom"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/gradient"
                     android:src="@drawable/circle">
 
-                </androidx.appcompat.widget.AppCompatImageView>
+                </androidx.appcompat.widget.AppCompatButton>
 
 
                 <TextView
@@ -90,9 +103,16 @@
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
 
 
+                <!--                <View-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="1dp"-->
+                <!--                    android:background="#000"-->
+                <!--                    />-->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -108,7 +128,7 @@
                     android:id="@+id/continuar"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="78dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/ic_baseline_arrow_forward_ios_24"
 

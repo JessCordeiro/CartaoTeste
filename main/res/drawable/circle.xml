@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     Android:shape="rectangle"
     tools:ignore="NamespaceTypo">
-<!--    <solid Android:color="@color/black" />-->
+    <solid Android:color="@color/card" />
 
     <solid app:color="@drawable/gradient"/>
     <corners Android:bottomRightRadius="180dp"

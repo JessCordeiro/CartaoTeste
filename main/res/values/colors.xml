@@ -10,5 +10,10 @@
     <color name="rosa">#ff5594</color>
     <color name="cinza">#757575</color>
     <color name="card">#303f54</color>
+    <color name="fundo">#fafafa</color>
+    <color name="azul">#283593</color>
+    <color name="roxo">#6a1b9a</color>
+    <color name="cinzaclaro">#e0e0e0</color>
+
 
 </resources>
